@@ -1,9 +1,13 @@
-body {
+main {
     background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 h1 {    
     color: blue;
+    font-size: 35px;
 }
 
 nav {
@@ -13,4 +17,6 @@ nav {
 
 .mainhead {
     font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
 }
