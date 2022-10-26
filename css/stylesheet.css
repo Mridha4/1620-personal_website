@@ -5,20 +5,18 @@ main {
 }
 
 h1 {    
-    color: blue;
+    color: #334259;
     font-size: 35px;
 }
 
 nav {
     background-color: lightblue;
     text-align: center;
-    margin: 20px;
+    flex-grow: 100%;
 }
 
 .mainhead {
     font-family: Montserrat, sans-serif;
-    display: flex;
-    justify-content: center;
 }
 
 body {
