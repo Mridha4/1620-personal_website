@@ -12,6 +12,7 @@ h1 {
 nav {
     background-color: lightblue;
     text-align: center;
+    margin: 20px;
 }
 
 .mainhead {
@@ -22,4 +23,9 @@ nav {
 
 body {
     background-color: #EDDDD0;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
 }
