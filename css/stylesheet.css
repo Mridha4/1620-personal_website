@@ -7,7 +7,6 @@ main {
 h1 {    
     color: #334259;
     font-size: 35px;
-    grid-row: -1/2;
 }
 
 nav {
@@ -32,4 +31,8 @@ body {
 .p2 {
     grid-column: -3/-2;
     grid-row: 2/3;
+}
+
+.mheader {
+    display: grid;
 }
