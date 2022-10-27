@@ -42,7 +42,7 @@ p {
     grid-column: 1/2;
 }
 
-ul {
+nav ul {
     display: inline-flex;
     list-style-type: none;
     justify-content: center;
