@@ -52,15 +52,18 @@ nav ul {
 article ul {
     list-style-type: none;
     flex-direction: column;
-}
-
-article {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
+    padding-left: 0%;
 }
 
 .list-grid {
     display: grid;
     grid-template-rows: 1fr;
+}
+
+article li {
+    border-top: 2px solid black;
+}
+
+article li:first-child {
+    border-top: none;
 }
