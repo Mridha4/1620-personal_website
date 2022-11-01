@@ -1,4 +1,4 @@
-main {
+.index-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -51,4 +51,16 @@ nav ul {
 
 article ul {
     list-style-type: none;
+    flex-direction: column;
+}
+
+article {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.list-grid {
+    display: grid;
+    grid-template-rows: 1fr;
 }
