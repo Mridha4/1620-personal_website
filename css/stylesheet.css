@@ -48,3 +48,7 @@ nav ul {
     justify-content: center;
     text-align: center;
   }
+
+article ul {
+    list-style-type: none;
+}
