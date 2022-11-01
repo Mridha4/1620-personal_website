@@ -13,6 +13,7 @@ h1 {
 nav {
     background-color: lightblue;
     text-align: center;
+    
 }
 
 .mainhead {
@@ -43,10 +44,11 @@ p {
 }
 
 nav ul {
-    display: inline-flex;
+    display: flex;
     list-style-type: none;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
   }
 
 article ul {
@@ -66,4 +68,11 @@ article li {
 
 article li:first-child {
     border-top: none;
+}
+
+@media screen and (min-width: 600px) {
+    nav ul {
+        display: inline-flex;
+    }
+    
 }
