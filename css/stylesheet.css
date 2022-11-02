@@ -57,10 +57,6 @@ article ul {
     padding-left: 0%;
 }
 
-.list-grid {
-    display: grid;
-    grid-template-rows: 1fr;
-}
 
 article li {
     border-top: 2px solid black;
@@ -69,6 +65,14 @@ article li {
 article li:first-child {
     border-top: none;
 }
+
+article ul li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
 
 @media screen and (min-width: 600px) {
     nav ul {
