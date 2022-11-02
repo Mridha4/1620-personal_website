@@ -39,10 +39,6 @@ footer {
     grid-column: 2/3;
 }
 
-p {
-    grid-column: 1/2;
-}
-
 nav ul {
     display: flex;
     list-style-type: none;
@@ -66,17 +62,16 @@ article li:first-child {
     border-top: none;
 }
 
-article ul li {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-
 
 @media screen and (min-width: 600px) {
     nav ul {
         display: inline-flex;
+    }
+    article ul li {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
     }
     
 }
