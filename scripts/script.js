@@ -1,6 +1,6 @@
 const ACIT1620 = {
     code: "ACIT 1620",
-    name: "Web Technologies",
+    name: "Web Fundamental Technologies",
 };
 
 const ACIT1630 = {
@@ -18,7 +18,7 @@ const ACIT1515 = {
     name: "Scripting",
 };
 
-const courselist = [ACIT1620, ACIT1630, ACIT1420, ACIT1515];
+const courseList = [ACIT1620, ACIT1630, ACIT1420, ACIT1515];
 
 let input;
 do {
@@ -34,8 +34,7 @@ do {
 for (let course of courseList) {
 	if (course.code.includes('1620')) {
         
-        console.log('ACIT 1620 - Web Fundamental Technologies')
-        
+        console.log(`${ACIT1620.code} - ${ACIT1620.name}`);
+    
     }
-
 };
