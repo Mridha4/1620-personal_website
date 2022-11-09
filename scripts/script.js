@@ -32,9 +32,9 @@ do {
 // console.log(`My name is ${a}`)
 
 for (let course of courseList) {
-	if (course.code.includes('1620')) {
+	if (course.code.includes(input)) {
         
-        console.log(`${ACIT1620.code} - ${ACIT1620.name}`);
+        console.log(`Yes I am taking the course: ${course.code} - ${course.name}`);
     
     }
 };
