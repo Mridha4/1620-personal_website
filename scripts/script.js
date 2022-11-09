@@ -31,10 +31,20 @@ do {
 // console.log('My name is' + a)
 // console.log(`My name is ${a}`)
 
-for (let course of courseList) {
-	if (course.code.includes(input)) {
-        
-        console.log(`Yes I am taking the course: ${course.code} - ${course.name}`);
-    
+
+for (let i = 0; i < courseList.length; i++) {
+	if (courseList[i].code.includes(input)) {
+        console.log(`Yes I am taking the course: ${courseList[i].code} - ${courseList[i].name}`);
+        break;
+    } else if (i === courseList.length-1){
+        let st = "ACIT";
+        st = st + input;
+        courseList.push(st);
+        courseList[courseList.length-1] ={
+            code:input,
+            name:null,
+        };
+            console.log('Added');
+            break;
     }
 };
