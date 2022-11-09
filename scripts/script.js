@@ -5,8 +5,14 @@ let courseList = {
 };
 console.log(courseList);
 
-// function test() {
-//     prompt('What is you name?');
-//   }
-// test()
+let input;
+do {
+    input = prompt ('Enter a 4-digit number');
+    // prompt always return string
+    // convert input to number
+   // console.log(Number(input));
+}   while (isNaN(Number(input)) || input.length !== 4 )
+
+
+
   
